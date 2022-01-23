@@ -1,0 +1,25 @@
+{
+  "name": "signup-mongo",
+  "version": "0.0.1",
+  "description": "signup-mongo",
+  "main": "./lib/index.js",
+  "types": "./src/index.ts",
+  "scripts": {
+    "build:lib": "tsc",
+    "clean:lib": "rimraf lib"
+  },
+  "devDependencies": {
+    "tslint": "5.10.0",
+    "typescript": "^3.8.3"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/core-ts/signup-mongo"
+  },
+  "keywords": [
+    "signup-mongo"
+  ]
+}
